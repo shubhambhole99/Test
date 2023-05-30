@@ -7,8 +7,8 @@ const { isAuthenticated } = require('../middleware/Auth')
 // Test Route
 router.get('/test', userController.hello)
 
-// route to register the user
-router.post('/register/user', userController.registeruser)
+// // route to register the user
+// router.post('/register/user', userController.registeruser)
 
 
 
