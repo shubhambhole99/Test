@@ -3,9 +3,9 @@ const app = express()
 const config = require('./config/config')
 const userRoutes = require('./routes/userRoutes')
 // swagger
-const swaggerJsdoc = require('swagger-jsdoc');
-const swaggerUi = require('swagger-ui-express');
-const { specs } = require('./swagger')
+// const swaggerJsdoc = require('swagger-jsdoc');
+// const swaggerUi = require('swagger-ui-express');
+// const { specs } = require('./swagger')
 // port
 const port = config.port || 5000
 // database
@@ -25,7 +25,7 @@ app.use((err, req, res, next) => {
 });
 
 
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
+// app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
 
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
