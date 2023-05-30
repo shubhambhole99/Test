@@ -1,3 +1,4 @@
+
 const userController = require('../controller/userController')
 const express = require('express')
 const router = express.Router()
@@ -9,9 +10,9 @@ fasgvfkwsdab < html >
     asdnaljsbfjlbafljbnas
 
     < p >
-=======
-// Test Route
-router.get('/test', userController.hello)
+
+    // Test Route
+    router.get('/test', userController.hello)
 
 // // route to register the user
 // router.post('/register/user', userController.registeruser)
@@ -33,3 +34,5 @@ router.put('/updatebyid', isAuthenticated, userController.updateuser)
 router.post('/login', userController.login)
 
 
+
+ahfjdghaifghdaghfkuas
